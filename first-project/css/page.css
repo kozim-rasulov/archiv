@@ -25,4 +25,5 @@ p {
 .youtube,.bugatti_mp4,.maps {
     display: block;
     margin: 20px auto;
+    width: 100%;
 }

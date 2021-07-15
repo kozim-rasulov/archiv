@@ -1,0 +1,50 @@
+@media (max-width: 767px) {
+    p {
+        width: 530px;
+    }
+    .bugatti {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .partners_block {
+        width: 500px;
+        min-height: 500px;
+        justify-content: space-evenly;
+    }
+    .partners_item {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media (max-width: 575px) {
+    .heading {
+        font-size: 20px;
+    }
+    p {
+        width: 270px;
+    }
+    #bottom_link {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .of_partners {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .youtube {
+        height: 280px;
+    }
+    .partners_block {
+        width: 280px;
+        min-height: 1200px;
+    }
+    .partners_item {
+        height: 220px;
+        width: 220px;
+    }
+}
