@@ -8,24 +8,48 @@
     <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="#"></script>
 </head>
 <body>
     <header>
-        <nav class="nav">
+        <nav class="nav nav_fixed">
             <div class="container nav__content">
                 <div class="nav__item">
                     <a href="#" class="logo"><img src="img/logo.png" alt="logo_png" class="logo__img"></a>
-                    <ul class="menu">
+                    <button class="nav__button">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                    <ul class="menu menu_column">
                         <li><a href="#" class="menu__link">iMac</a></li>
                         <li><a href="#" class="menu__link">iPad</a></li>
                         <li><a href="#" class="menu__link">iPhone</a></li>
                     </ul> 
+                    
                 </div>  
+                
                 <div class="service">
                     <a href="#"><i class="service__icon fal fa-search"></i></a>
                     <a href="#"><i class="service__icon fal fa-shopping-bag"></i></a>
                 </div> 
+                
+            </div>
+        </nav>
+        <nav class="nav nav_fixed nav_576">
+            <div class="container nav__content">
+                <a href="#" class="logo"><img src="img/logo.png" alt="logo_png" class="logo__img"></a>
+                <button class="nav__button">
+                    <i class="fas fa-ellipsis-v"></i>
+                </button>
+                <ul class="menu menu_column">
+                    <li><a href="#" class="menu__link">iMac</a></li>
+                    <li><a href="#" class="menu__link">iPad</a></li>
+                    <li><a href="#" class="menu__link">iPhone</a></li>
+                    <div class="service">
+                        <a href="#"><i class="service__icon fal fa-search"></i></a>
+                        <a href="#"><i class="service__icon fal fa-shopping-bag"></i></a>
+                    </div> 
+                </ul> 
             </div>
         </nav>
         <div class="subheader">
@@ -96,16 +120,16 @@
     </main>
     <footer class="footer">
         <nav class="nav">
-            <div class="container nav__content">
+            <div class="container nav__content nav__content_column">
                 <a href="#" class="logo"><img src="img/logo.png" alt="logo_png" class="logo__img"></a>
-                <ul class="menu">
+                <ul class="menu menu_bottom">
                     <li><a href="#" class="menu__link">iMac</a></li>
                     <li><a href="#" class="menu__link">iPad</a></li>
                     <li><a href="#" class="menu__link">iPhone</a></li>
                 </ul>  
                 <div class="service">
-                    <a href="#"><i class="service__icon fab fa-cc-visa"></i></a>
-                    <a href="#"><i class="service__icon fab fa-cc-mastercard"></i></a>
+                    <a href="#"><i class="card__icon fab fa-cc-visa"></i></a>
+                    <a href="#"><i class="card__icon card__icon_margin fab fa-cc-mastercard"></i></a>
                 </div> 
             </div>
         </nav>

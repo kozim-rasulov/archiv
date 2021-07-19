@@ -22,7 +22,20 @@ body {
 }
 .nav {
     background: #282828;
-    padding: 6px 0;
+    padding: 7px 0;
+    position: relative;
+}
+.nav_576 {
+    display: none;
+}
+.nav__button {
+    font-size: 40px;
+    line-height: 40px;
+    padding: 15px 20px;
+    background: none;
+    border: none;
+    color: #fff;
+    display: none;
 }
 .nav a {
     color: #FFFFFF;
@@ -90,7 +103,7 @@ body {
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .main {
-    padding: 30px 0 55px;
+    padding-top: 30px;
 }
 .about__headphones {
     display: flex;
@@ -111,6 +124,7 @@ body {
 .about__img {
     max-width: 552px;
     width: 100%;
+    object-fit: contain;
 }
 .about__case {
     display: flex;
@@ -156,6 +170,7 @@ body {
 .product {
     display: flex;
     justify-content: space-between;
+    
 }
 .product__item {
     display: flex;
@@ -166,6 +181,7 @@ body {
     background: #FFFFFF;
     padding: 15px 47px;
     border-radius: 6px;
+    margin-bottom: 55px;
 }
 .product__title {
     font-size: 20px;
@@ -196,10 +212,12 @@ body {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .footer nav {
-    padding: 79px;
+    padding: 79px 0;
 }
-.footer .service__icon {
+.footer .card__icon {
     font-size: 62px;
     line-height: 55px;
+}
+.footer .card__icon_margin {
     margin-left: 29px;
 }
