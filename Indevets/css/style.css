@@ -31,6 +31,8 @@
 /* line 14, ../IndeVets/src/sass/_general.sass */
 * .hamburger {
   display: none;
+  background: transparent;
+  border: none;
 }
 
 /* line 16, ../IndeVets/src/sass/_general.sass */
@@ -88,7 +90,6 @@
 * .menu__button:hover {
   color: #7FFF00;
   border-color: #7FFF00;
-  font-size: 102%;
 }
 
 /* line 51, ../IndeVets/src/sass/_general.sass */
@@ -566,10 +567,6 @@
     position: fixed;
     transform: translateY(0);
   }
-  /* line 70, ../IndeVets/src/sass/_media.sass */
-  * .menu__list {
-    display: none;
-  }
   /* line 72, ../IndeVets/src/sass/_media.sass */
   * .menu__button {
     display: none;
@@ -582,6 +579,24 @@
     top: 50%;
     transform: translateY(-50%);
     width: 35px;
+    cursor: pointer;
+  }
+  * .hamburger:focus ~ .menu__list {
+    visibility: visible;
+  }
+  .menu__list_column {
+    visibility: hidden;
+    position: absolute;
+    right: 15px;
+    top: 67px;
+    background: rgba(96, 193, 189, 0.8);
+    flex-direction: column;
+    min-width: 200px;
+  }
+  .menu__list .menu__link {
+    display: block;
+    padding: 20px;
+    margin-left: 0;
   }
   /* line 81, ../IndeVets/src/sass/_media.sass */
   * .hamburger span {
