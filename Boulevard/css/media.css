@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+    .product {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 960px;
+    }
+    .subheader__title {
+        font-size: 70px;
+    }
+    .about__headphones .about__img {
+        max-width: 365px;
+        margin-left: 30px;
+    }
+    .about__descr {
+        font-size: 20px;
+    }
+    .about__case .about__img {
+        max-width: 365px;
+        margin-right: 30px;
+    }
+    .about__airpods .about__img {
+        max-width: 200px;
+    }
+    .about__airpods .about__descr {
+        font-size: 15px;
+    }
+    .about__divider {
+        margin: 0 13px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 720px;
+    }
+    .nav_fixed {
+        position: fixed;
+        width: 100%;
+    }
+    .nav__content {
+        justify-content: start;
+    }
+    .nav__button {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+		transform: translateY(-50%);
+        display: block;
+        cursor: pointer;
+      }
+    
+      .nav__button:focus {
+        background: rgba(0,0,0, 0.2);
+      }
+      .nav__button:focus ~ .menu {
+        visibility: visible;
+      }
+      .menu_column {
+        visibility: hidden;
+        position: absolute;
+        right: 15px;
+        top: 71px;
+        background: rgba(40, 40, 40, 0.8);
+        flex-direction: column;
+        min-width: 200px;
+      }
+      .menu__link {
+        display: block;
+        padding: 20px;
+        margin-left: 0;
+      }
+    
+      .menu__link:hover {
+        background: rgba(0,0,0, 0.2);
+      }
+      .subheader__title {
+          font-size: 55px;
+      }
+      .about__headphones .about__img {
+          max-width: 240px;
+      }
+      .about__descr {
+          font-size: 15px;
+          line-height: 20px;
+      }
+      .about__descr_margin {
+          margin-top: 15px;
+      }
+      .about__case .about__img {
+          max-width: 240px;
+      }
+      .about__airpods .about__img {
+          max-width: 135px;
+      }
+      .about__airpods .about__descr {
+          font-size: 13px;
+          line-height: 21px;
+      }
+      .footer nav {
+          padding: 35px 0;
+      }
+      .nav__content_column {
+          flex-direction: column;
+      }
+      .menu_bottom {
+          margin: 20px 0;
+      }
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 540px;
+    }
+    .nav_576 {
+        display: block;
+    }
+    .service {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .service__icon {
+        font-size: 25px;
+        margin: 0 20px;
+    }
+    .subheader__title {
+        font-size: 35px;
+    }
+    .subheader__btn {
+        font-size: 13px;
+    }
+    .about__headphones {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .about__headphones .about__img {
+        margin-left: 0px;
+        order: -1;
+    }
+    .about__descr {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .about__descr_margin {
+        margin-top: 25px;
+    }
+    .about__case {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__case .about__img {
+        margin: 0;
+    }
+    .about__airpods {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__divider {
+        width: 1px;
+        height: 61px;
+        margin: 13px 0;
+    }
+    .about__airpods .about__descr {
+        margin: 0;
+    }
+    .product {
+        justify-content: center;
+    }
+    .footer .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
