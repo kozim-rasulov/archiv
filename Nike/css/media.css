@@ -1,0 +1,160 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .product {
+        max-width: 450px;
+        min-height: 527px;
+    }
+    .cards {
+        max-width: 450px;
+    }
+    .card {
+        max-width: 210px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .link {
+        font-size: 12px;
+    }
+    .logo img {
+        max-width: 75px;
+    }
+    .main {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .product {
+        max-width: 540px;
+        min-height: 467px;
+        margin-top: -37px;
+        margin-bottom: 15px;
+    }
+    .cards {
+        max-width: 540px;
+    }
+    .card {
+        max-width: 255px;
+        margin: 15px 0;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .card p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .form {
+        max-width: 250px;
+    }
+    .form *::placeholder {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .form button {
+        font-size: 14px;
+    }
+    footer .menu {
+        columns: 80px 2;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    nav {
+        position: fixed;
+        width: 100%;
+
+    }
+    .logo img {
+        padding: 10px 0;
+    }
+    .hamburger {
+		display: block;
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 26px;
+		height: 12px;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+    }
+    .hamburger span {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 2px;
+    }
+    .hamburger:focus ~ .menu {
+        visibility: visible;
+    }
+    .menu_column {
+        visibility: hidden;
+        position: absolute;
+        right: 10px;
+        top: 51.75px;
+        background: rgba(50, 46, 65, 0.8);
+        flex-direction: column;
+        min-width: 200px;
+    }
+    .link {
+        display: block;
+        padding: 20px;
+        margin-left: 0;
+    }
+    
+    footer .container {
+        padding: 37px 25px 57px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 38px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .cards {
+        justify-content: center;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .product p {
+        font-size: 14px;
+    }
+    .product p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    footer .container {
+        max-width: 540px;
+        padding: 30px 15px;
+        flex-direction: column;
+    }
+    .form {
+        max-width: 100%;
+    }
+    footer .menu {
+        margin: 30px 0;
+    }
+}

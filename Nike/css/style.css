@@ -51,6 +51,9 @@ nav .container {
     background: #FFFFFF;
     color: #D47300;
 }
+.hamburger {
+    display: none;
+}
 
 header .content {
     background: url(../img/header-bg.jpg);
