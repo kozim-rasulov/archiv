@@ -88,6 +88,7 @@ ul {
     overflow: auto; */
   overflow-y: auto;
   transition: 1s;
+  z-index: 999;
 }
 
 .nav:hover {
