@@ -8,23 +8,34 @@
     <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="#"></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="tnw_logo"></a>
-                <ul class="menu">
-                    <li><a href="#" class="menu__link">СПЕЦПРОЕКТ</a></li>
-                    <li><a href="#" class="menu__link">ОБЩЕСТВО</a></li>
-                    <li><a href="#" class="menu__link">ТЕХНОЛОГИИ</a></li>
-                    <li><a href="#" class="menu__link">ЭКОНОМИКА</a></li>
-                    <li><a href="#" class="menu__link">ПОЛИТИКА</a></li>
-                    <li><a href="#" class="menu__link">СПОРТ</a></li>
-                </ul>
+            <nav class="nav">
+                <div class="container">
+                    <a href="#" class="logo logo_top"><img class="logo__img" src="img/logo.png" alt="tnw_logo"></a>
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="menu menu_column">
+                        <li><a href="#" class="menu__link">СПЕЦПРОЕКТ</a></li>
+                        <li><a href="#" class="menu__link">ОБЩЕСТВО</a></li>
+                        <li><a href="#" class="menu__link">ТЕХНОЛОГИИ</a></li>
+                        <li><a href="#" class="menu__link">ЭКОНОМИКА</a></li>
+                        <li><a href="#" class="menu__link">ПОЛИТИКА</a></li>
+                        <li><a href="#" class="menu__link">СПОРТ</a></li>
+                    </ul>
+                </div>
             </nav>
-            <img src="img/header_bg.jpg" alt="header_bg" class="header-bg">
-        </div>
+            <div class="header__img">
+                <div class="container">
+                    <img src="img/header_bg.jpg" alt="header_bg" class="header-bg">
+                </div>
+            </div>
     </header>
     <main>
         <section class="promo">
@@ -81,10 +92,10 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
             <nav>
-                <a href="#" class="logo"><img class="logo__img" src="img/logo_footer.png" alt="tnw_logo"></a>
-                <ul class="menu">
+                <div class="container container_center">
+                    <a href="#" class="logo"><img class="logo__img" src="img/logo_footer.png" alt="tnw_logo"></a>
+                <ul class="menu menu_off">
                     <li><a href="#" class="menu__link">СПЕЦПРОЕКТ</a></li>
                     <li><a href="#" class="menu__link">ОБЩЕСТВО</a></li>
                     <li><a href="#" class="menu__link">ТЕХНОЛОГИИ</a></li>
@@ -92,8 +103,8 @@
                     <li><a href="#" class="menu__link">ПОЛИТИКА</a></li>
                     <li><a href="#" class="menu__link">СПОРТ</a></li>
                 </ul>
+                </div>
             </nav>
-        </div>
     </footer>
 </body>
 </html>

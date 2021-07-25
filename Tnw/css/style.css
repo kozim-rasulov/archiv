@@ -19,12 +19,14 @@ ul {
     list-style: none;
 }
 header {
-    margin: 20px auto 35px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
-nav {
+nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .menu {
     display: flex;
