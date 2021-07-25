@@ -1,0 +1,212 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .logo .logo_img {
+        max-width: 65px;
+    }
+    .logo .logo_text {
+        font-size: 13px;
+    }
+    .title  {
+        font-size: 34px;
+    }
+    .simple .title_big {
+        font-size: 70px;
+    }
+    .gift .gift_text {
+        font-size: 27px;
+    }
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .title {
+        font-size: 29px;
+    }
+    .simple .title_big {
+        font-size: 62px;
+    }
+    .promo .promo_text {
+        font-size: 18px;
+    }
+    .promo .promo_btn, .gift .gift_btn {
+        font-size: 19px;
+    }
+    .more .more_text {
+        font-size: 13px;
+    }
+    .more .more_img {
+        max-width: 25px;
+    }
+    .waiting .waiting_header, .finish .finish_header {
+        font-size: 26px;
+    }
+    .waiting .waiting_subheader {
+        font-size: 20px;
+    }
+    .waiting .waiting_wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .waiting .waiting_wrapper .waiting_item {
+        margin: 10px 0;
+    }
+    .optimization .optimization_header {
+        font-size: 21px;
+    }
+    .optimization .optimization_text {
+        font-size: 15px;
+    }
+    .finish .finish_wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .gift .gift_img {
+        max-width: 135px;
+    }
+    .gift .gift_text {
+        font-size: 21px;
+    }
+    .first .first_text {
+        font-size: 25px;
+    }
+    .first .date {
+        font-size: 29px;
+    }
+    .first .first_subtitle {
+        font-size: 21px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+        padding: 0 15px;
+    }
+    .logo .logo_img {
+        max-width: 55px;
+    }
+    .logo .logo_text {
+        font-size: 11px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .simple .title_big {
+        font-size: 50px;
+    }
+    .promo .promo_text {
+        font-size: 15px;
+    }
+    .promo .promo_btn, .gift .gift_btn {
+        font-size: 17px;
+        width: 290px;
+        height: 66px;
+    }
+    .waiting .waiting_header, .finish .finish_header {
+        font-size: 23px;
+    }
+    .waiting .waiting_subheader {
+        font-size: 18px;
+    }
+    .optimization {
+        padding: 50px 0;
+    }
+    .optimization .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .optimization .optimization_header {
+        margin-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+    .optimization .optimization_text {
+        margin-left: 0;
+    }
+    .optimization .optimization_img {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .finish .finish_wrapper .finish_item {
+        margin: 10px 0;
+    }
+    .gift .gift_img {
+        max-width: 110px;
+    }
+    .gift .gift_text {
+        line-height: 33px;
+    }
+    .gift {
+        padding: 50px 0;
+    }
+    .first {
+        padding: 50px 0;
+    }
+    .first .first_text {
+        font-size: 23px;
+    }
+    .first .date {
+        font-size: 27px;
+    }
+    .first .first_subtitle {
+        font-size: 19px;
+    }
+}
+@media (max-width: 575px) {
+    .logo .logo_img {
+        max-width: 50px;
+    }
+    .title {
+        font-size: 21px;
+    }
+    .simple .title_big {
+        font-size: 35px;
+    }
+    .promo .promo_text {
+        line-height: 22px;
+    }
+    .promo .promo_btn, .gift .gift_btn {
+        width: 100%;
+    }
+    .waiting .waiting_header, .finish .finish_header {
+        font-size: 20px;
+    }
+    .waiting .waiting_divider, .finish .finish_divider {
+        width: 100%;
+    }
+    .optimization .optimization_text {
+        text-align: justify;
+    }
+    .gift .gift_text {
+        font-size: 18px;
+    }
+    .first .first_img {
+        width: 100%;
+    }
+    .first .date {
+        font-size: 24px;
+    }
+    .info {
+        width: 100%;
+    }
+    .info_links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .info_margin {
+        margin-bottom: 15px;
+    }
+    .info_links span {
+        display: none;
+    }
+}
