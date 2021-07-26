@@ -95,7 +95,7 @@
     }
     .footer__content {
         justify-content: center;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .footer__links {
         margin-top: 10px;
@@ -148,6 +148,13 @@
     }
     .news__title {
         margin-top: 5px;
+    }
+    .info {
+        justify-content: center;
+    }
+    .title_margin {
+        text-align: center;
+        margin-left: -5px;
     }
     .footer__title {
         font-size: 20px;
